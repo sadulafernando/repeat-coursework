@@ -1,0 +1,46 @@
+ <html>
+    <head>
+        <title>SDG GOAL 04</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="banner">
+            <div class="banner-text">
+                <h1>Quality Education</h1>
+                <p>Sustainable Development Goal 04</p>
+                <div class="banner-btn">
+                    <a href="#">Find More</a>
+                </div>
+            </div>
+ </section>
+ <div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+ </div>
+ <div id="menuBtn">
+    <img src="menuBtn.jpg" id=menu>
+ </div>
+ <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sidenav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    sideNav.style.right = "-250";
+    
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+        }
+        else{
+            sideNav.style.right = "-250px";
+        }
+    }
+ </script>
+
+    </body>
+ </html>
